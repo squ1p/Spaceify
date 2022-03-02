@@ -26,7 +26,7 @@ def spaceify(filepath):
     with open(filepath, "r") as myfile:
         myfile = myfile.read()
 
-    myfile.replace("\t", "    ")
+    myfile = myfile.replace("\t", "    ")
     with open(filepath, "w") as yourfile:
         yourfile.write(myfile)
 
