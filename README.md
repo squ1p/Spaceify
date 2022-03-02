@@ -1,8 +1,8 @@
 # Spaceify
 
-This is a quickly put together utility. It takes a folder, and tries to open eveyr text file in it.
+This is a quickly put together utility. It takes a folder, and tries to open every text file in it.
 
-It then turns every tab (\t) into 4 spaces, beacause IT'S THE LAW.
+It then turns every tab (\t) into 4 spaces, because IT'S THE LAW.
 
 ```
 usage: spaceify.py [-h] -f FOLDER
